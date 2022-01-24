@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import App from'./app';
+import './index.css';
 
-//function Greeting(){
-//return(
-  //<div>
-    //<h4>This is my first component</h4>;
-    //</div>
-    //)
-//}
 
-const Greeting =() =>{
-  return React.createElement('h1',{},React.createElement('h1',{},'hi'));
+const Main=() =>{
+    return(
+      <>
+      <App/>
+      </>
+    );
 }
 
-ReactDom.render(<Greeting/>,document.getElementById('root'))
+ReactDom.render(<Main/>,document.getElementById('root'))
