@@ -5,22 +5,41 @@ export const Thumbnails=()=>{
 };
 
 const Albumthumbnail=()=>{
-    return(<><div className="total">
-    <div className="total1">
-          <Albumthumbnail1/>
-          <Albumthumbnail2/>
-          <Albumthumbnail3/>
+    return(<>
+    <div className="total"> 
+    <Total1/>
+    <Total2/>
+    <Total3/>
     </div>
+    </>)
+}
+
+const Total1=()=>{
+    return(<>
+    <div className="total1">
+    <Albumthumbnail1/>
+    <Albumthumbnail2/>
+    <Albumthumbnail3/>
+    </div>
+    </>)
+}
+
+const Total2=()=>{
+    return(<>
     <div className="total2">
     <Albumthumbnail4/>
     <Albumthumbnail5/>
     <Albumthumbnail6/>
     </div>
+    </>)
+}
+
+const Total3=()=>{
+    return(<>
     <div className="total3">
     <Albumthumbnail7/>
     <Albumthumbnail8/>
     <Albumthumbnail9/> 
-    </div>
     </div>
     </>);
 }
@@ -28,12 +47,9 @@ const Albumthumbnail=()=>{
 const Albumthumbnail1=()=>{
     return(<>
     <div className="one">
-          <Photo/>
+    <Photo/>
         <Para/>
-        <div className="viewandedit">
-        <View/>
-        <Edit/>
-        </div>
+        <Viewandedit/>
     </div>
     </>);
 }
@@ -41,12 +57,9 @@ const Albumthumbnail1=()=>{
 const Albumthumbnail2=()=>{
     return(<>
     <div className="two">
-          <Photo/>
+    <Photo/>
         <Para/>
-        <div className="viewandedit">
-        <View/>
-        <Edit/>
-        </div>
+        <Viewandedit/>
     </div>
     </>);
 }
@@ -54,12 +67,9 @@ const Albumthumbnail2=()=>{
 const Albumthumbnail3=()=>{
     return(<>
     <div className="three">
-          <Photo/>
+    <Photo/>
         <Para/>
-        <div className="viewandedit">
-        <View/>
-        <Edit/>
-        </div>
+        <Viewandedit/>
     </div>
     </>);
 }
@@ -67,12 +77,9 @@ const Albumthumbnail3=()=>{
 const Albumthumbnail4=()=>{
     return(<>
     <div className="four">
-          <Photo/>
+    <Photo/>
         <Para/>
-        <div className="viewandedit">
-        <View/>
-        <Edit/>
-        </div>
+        <Viewandedit/>
     </div>
     </>);
 }
@@ -80,12 +87,9 @@ const Albumthumbnail4=()=>{
 const Albumthumbnail5=()=>{
     return(<>
     <div className="five">
-          <Photo/>
+    <Photo/>
         <Para/>
-        <div className="viewandedit">
-        <View/>
-        <Edit/>
-        </div>
+        <Viewandedit/>
     </div>
     </>);
 }
@@ -93,12 +97,9 @@ const Albumthumbnail5=()=>{
 const Albumthumbnail6=()=>{
     return(<>
     <div className="six">
-          <Photo/>
+    <Photo/>
         <Para/>
-        <div className="viewandedit">
-        <View/>
-        <Edit/>
-        </div>
+        <Viewandedit/>
     </div>
     </>);
 }
@@ -106,12 +107,9 @@ const Albumthumbnail6=()=>{
 const Albumthumbnail7=()=>{
     return(<>
     <div className="seven">
-          <Photo/>
+    <Photo/>
         <Para/>
-        <div className="viewandedit">
-        <View/>
-        <Edit/>
-        </div>
+        <Viewandedit/>
     </div>
     </>);
 }
@@ -119,12 +117,9 @@ const Albumthumbnail7=()=>{
 const Albumthumbnail8=()=>{
     return(<>
     <div className="eight">
-          <Photo/>
+    <Photo/>
         <Para/>
-        <div className="viewandedit">
-        <View/>
-        <Edit/>
-        </div>
+        <Viewandedit/>
     </div>
     </>);
 }
@@ -132,12 +127,9 @@ const Albumthumbnail8=()=>{
 const Albumthumbnail9=()=>{
     return(<>
     <div className="nine">
-          <Photo/>
+    <Photo/>
         <Para/>
-        <div className="viewandedit">
-        <View/>
-        <Edit/>
-        </div>
+        <Viewandedit/>
     </div>
     </>);
 }
@@ -172,5 +164,14 @@ const Edit=()=>{
     <div className="edit">
         <span>Edit</span>
     </div>
+    </>);
+}
+
+const Viewandedit=()=>{
+    return(<>
+<div className="viewandedit">
+        <View/>
+        <Edit/>
+        </div>
     </>);
 }

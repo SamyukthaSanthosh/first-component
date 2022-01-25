@@ -34,10 +34,14 @@
     font-size: 20px;
     font-weight: 100;
 }
+.para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .button{
     display:flex;
-    margin-top: 20px;
 }
 
 .mainaction{

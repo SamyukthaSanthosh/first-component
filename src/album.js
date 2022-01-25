@@ -6,18 +6,45 @@ export const Body=()=>{
 
 const Albumbody=()=>{
     return(
-    <div className="example">
-      <h1>Album example</h1>
-      <p>Something short and leading about the collection below—its contents, the creator, etc. 
+    <div>
+        <Example/>
+    </div> 
+        )
+}
+
+const Example=()=>{
+    return(
+        <div className="example">
+    <Album/>
+    <Para/>
+        <Button/>
+        </div>
+    )
+}
+
+const Album=()=>{
+    return(
+        <div>
+            <h1>Album example</h1>
+        </div>
+    )
+}
+
+const Para=()=>{
+    return(
+<div className="para">
+<p>Something short and leading about the collection below—its contents, the creator, etc. 
         Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+</div>)
+}
+
+const Button=()=>{
+    return(
         <div className="button">
         <Mainbutton/>
         <Secondarybutton/>
         </div>
-        </div>
-        
-        
-        )
+    )
 }
 
 const Mainbutton=()=>{
