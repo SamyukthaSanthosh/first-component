@@ -5,9 +5,8 @@ export const Header=()=>{
 };
 
 const Albumheader=()=>{
-    return(<>
-    <div className="album">
-        <h2>Album</h2>
-    </div>
-    </>);
+    return React.createElement(
+        'div className="album"', {},
+    React.createElement('h2', {}, 'Album')
+        );
 }
